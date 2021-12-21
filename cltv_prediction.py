@@ -136,11 +136,11 @@ def create_cltv_p(dataframe, month=False, expected=False, diff=False, month1=Fal
 
 
     if to_sql:
-        creds = {'user': 'group_3',
-                 'passwd': 'miuul',
-                 'host': '34.79.73.237',
-                 'port': 3306,
-                 'db': 'group_3'}
+        creds = {'user': '',
+                 'passwd': '',
+                 'host': '',
+                 'port': ,
+                 'db': ''}
         # MySQL conection string.
         connstr = 'mysql+mysqlconnector://{user}:{passwd}@{host}:{port}/{db}'
         # sqlalchemy engine for MySQL connection.
